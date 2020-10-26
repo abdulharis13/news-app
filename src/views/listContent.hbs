@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Author</th>
+        <th>CreatedAt</th>
+    </tr>
+    {{#each posts}}
+    <tr>
+        <td>{{ judul }}</td>
+        <td>{{ content }}</td>
+        <td>{{ author.namaAdmin }}</td>
+        <td>{{ createdAt }}</td>
+    </tr>
+    {{/each}}
+</table>
